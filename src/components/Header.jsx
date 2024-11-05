@@ -7,7 +7,7 @@ export default function Header() {
     const location = useLocation();
     return (
         <header className="header">
-            <Navbar bg="dark" variant="dark" expand="lg" className="px-3 w-100">
+            <Navbar bg="secondary" variant="secondary" expand="lg" className="px-3 w-100">
                 <Navbar.Brand className="d-flex align-items-center">
                     <Link to="/about">
                         <img

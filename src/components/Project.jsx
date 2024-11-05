@@ -5,7 +5,7 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Header from './Header';
 import Footer from './Footer';
-// import '../assets/style/style.css';
+import '../assets/styles/style.css';
 export default function Project() {
     return (
         <>

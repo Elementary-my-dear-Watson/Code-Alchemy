@@ -1,0 +1,23 @@
+.footer {
+    background-color: #6b757e;
+    color: white;
+    padding: 20px;
+    text-align: center; /* Adjust as needed */
+    margin-bottom: 0px;
+}
+.footer div a {
+    color: white; /* Change link color */
+    text-decoration: none; /* Remove underline */
+}
+.footer div a:hover {
+    color: #EBFBFF; /* Change hover color */
+    transform: scale(1.01); /* Add scale effect */
+}
+a {
+    display: inline-block;
+    padding: 10px;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.2s ease, color 0.2s ease; /* Smooth transition */
+}
