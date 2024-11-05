@@ -16,7 +16,7 @@ export default function Header() {
                             style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
                         />
                     </Link>
-                    <h5>Jake Watson</h5>
+                    <h5>Martha Watson</h5>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
