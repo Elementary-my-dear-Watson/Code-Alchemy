@@ -7,9 +7,9 @@ export default function About() {
           <div className="about-text flex-grow-1">
               <h1 className="text-center mb-4">Martha's Biography</h1>
               <p className="lead">
-                  As a passionate videographer and designer with over ten years of experience, I thrive on the creative process. My journey has led me through various disciplines, including photography, graphic design, filmmaking, and branding, allowing me to cultivate a diverse skill set. <br />
+              With an award-winning background in art and a degree in the field, Martha has honed her craft in a variety of media, including stained glass, sculpture, and painting. Her artistic journey has been marked by a passion for creating captivating works across traditional forms.  <br />
                   <br />
-                  Now, I am excited to merge my artistic background with coding, empowering myself to bring my projects to life from concept to completion. My goal is to harness the power of technology to create visually stunning and engaging experiences that resonate with audiences.
+                  She's eager to expand her creative horizons, and is now venturing into the digital realm, blending her expertise in physical art with the dynamic world of coding and design. Her unique perspective promises to bridge the gap between tactile art forms and innovative digital experiences.
               </p>
           </div>
           <img
