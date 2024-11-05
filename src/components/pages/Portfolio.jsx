@@ -1,4 +1,4 @@
-import '../../assets/style/portfolio.css';
+// import '../../assets/style/portfolio.css';
 export default function Portfolio() {
     return (
         <div className="container py-5">
