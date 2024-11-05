@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <rect x="114.5" y="39" width="271" height="422" rx="20.179" ry="20.179" fill="#160924" stroke="#e0a76d" stroke-miterlimit="10" stroke-width="12"/>
+  <polygon points="250 165.432 152.349 334.568 347.651 334.568 250 165.432" fill="#1f1f44" stroke="#e0a76d" stroke-miterlimit="10" stroke-width="6"/>
+  <polyline points="264.58 250 294.261 279.68 263.63 310.311" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+  <polyline points="227.548 250 197.867 279.68 228.498 310.311" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+  <line x1="256.218" y1="250.326" x2="235.742" y2="310.56" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+  <polyline points="266.787 64.5 288.107 85.82 266.105 107.822" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="240.187 64.5 218.867 85.82 240.869 107.822" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="260.781" y1="64.734" x2="246.073" y2="108" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polygon points="250 129.608 120.221 354.392 379.779 354.392 250 129.608" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+  <polyline points="114.5 299.319 213.183 129.608 114.5 129.608" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="385.183 299.319 286.5 129.608 385.183 129.608" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="114.5" y1="384.024" x2="385.5" y2="384.024" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="171.548 461 242.216 390.332 309.557 457.673" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="206.278 461 243.85 423.428 280.183 459.762" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="141" y1="460" x2="216" y2="385" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="119" y1="450" x2="183.252" y2="385.37" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="345" y1="459" x2="270" y2="384" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <line x1="374" y1="456" x2="302.748" y2="384.37" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="385 259 317 144 385.183 144" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="385 224 347.651 161.813 385.183 161.813" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="116.183 259 184.183 144 116 144" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polyline points="116.183 224 153.532 161.813 116 161.813" fill="none" stroke="#e0a76d" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <polygon points="143.426 56 145.83 64.422 154.325 62.293 148.233 68.585 154.325 74.878 145.83 72.749 143.426 81.171 141.022 72.749 132.527 74.878 138.619 68.585 132.527 62.293 141.022 64.422 143.426 56" fill="#e0a76d"/>
+  <polygon points="167.426 91 169.83 99.422 178.325 97.293 172.233 103.585 178.325 109.878 169.83 107.749 167.426 116.171 165.022 107.749 156.527 109.878 162.619 103.585 156.527 97.293 165.022 99.422 167.426 91" fill="#e0a76d"/>
+  <polygon points="189.426 56 191.83 64.422 200.325 62.293 194.233 68.585 200.325 74.878 191.83 72.749 189.426 81.171 187.022 72.749 178.527 74.878 184.619 68.585 178.527 62.293 187.022 64.422 189.426 56" fill="#e0a76d"/>
+  <polygon points="311.426 56 313.83 64.422 322.325 62.293 316.233 68.585 322.325 74.878 313.83 72.749 311.426 81.171 309.022 72.749 300.527 74.878 306.619 68.585 300.527 62.293 309.022 64.422 311.426 56" fill="#e0a76d"/>
+  <polygon points="250 202 252.404 210.422 260.899 208.293 254.807 214.585 260.899 220.878 252.404 218.749 250 227.171 247.596 218.749 239.101 220.878 245.193 214.585 239.101 208.293 247.596 210.422 250 202" fill="#e0a76d"/>
+  <polygon points="189 298 191.404 306.422 199.899 304.293 193.807 310.585 199.899 316.878 191.404 314.749 189 323.171 186.596 314.749 178.101 316.878 184.193 310.585 178.101 304.293 186.596 306.422 189 298" fill="#e0a76d"/>
+  <polygon points="307 298 309.404 306.422 317.899 304.293 311.807 310.585 317.899 316.878 309.404 314.749 307 323.171 304.596 314.749 296.101 316.878 302.193 310.585 296.101 304.293 304.596 306.422 307 298" fill="#e0a76d"/>
+  <polygon points="357.426 56 359.83 64.422 368.325 62.293 362.233 68.585 368.325 74.878 359.83 72.749 357.426 81.171 355.022 72.749 346.527 74.878 352.619 68.585 346.527 62.293 355.022 64.422 357.426 56" fill="#e0a76d"/>
+  <polygon points="333.426 91 335.83 99.422 344.325 97.293 338.233 103.585 344.325 109.878 335.83 107.749 333.426 116.171 331.022 107.749 322.527 109.878 328.619 103.585 322.527 97.293 331.022 99.422 333.426 91" fill="#e0a76d"/>
+  <polygon points="141.426 392 143.83 400.422 152.325 398.293 146.233 404.585 152.325 410.878 143.83 408.749 141.426 417.171 139.022 408.749 130.527 410.878 136.619 404.585 130.527 398.293 139.022 400.422 141.426 392" fill="#e0a76d"/>
+  <polygon points="357.426 392 359.83 400.422 368.325 398.293 362.233 404.585 368.325 410.878 359.83 408.749 357.426 417.171 355.022 408.749 346.527 410.878 352.619 404.585 346.527 398.293 355.022 400.422 357.426 392" fill="#e0a76d"/>
+</svg>
