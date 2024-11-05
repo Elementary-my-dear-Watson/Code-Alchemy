@@ -1,0 +1,14 @@
+.about-container {
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    gap: 20px; /* Adds space between the text and image */
+  }
+  
+  .about-text {
+    flex-grow: 1;
+  }
+  
+  .about-image {
+    margin-left: 20px; /* Adds space to the left of the image */
+  }
+  
