@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
-import logoImage from '../assets/images/logomartha.svg';
+import logoImage from '../assets/images/marthalogo.svg';
 // import '../assets/style/Header.css';
 export default function Header() {
     const location = useLocation();
