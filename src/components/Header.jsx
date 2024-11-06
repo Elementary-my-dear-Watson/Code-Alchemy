@@ -2,22 +2,22 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
 import logoImage from '../assets/images/marthalogo.svg';
-// import '../assets/style/Header.css';
+import '../assets/styles/style.css';
+
 export default function Header() {
     const location = useLocation();
     return (
         <header className="header">
-            <Navbar bg="none" variant="light" expand="lg" className="px-3 w-100">
-
+            <Navbar bg="none" variant="none" expand="lg" className="px-3 w-100">
                 <Navbar.Brand className="d-flex align-items-center">
-                    <Link to="/about">
+                    <Link to="/about" className="logo-link">
                         <img
                             src={logoImage}
                             alt="Profile"
-                            style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
+                            className="logo"
                         />
                     </Link>
-                    <h5>Martha Watson</h5>
+                    <h5 className="ms-4">Martha Watson</h5>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

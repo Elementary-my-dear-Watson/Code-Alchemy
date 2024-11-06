@@ -13,12 +13,14 @@
 body {
     background-color: var(--cream) !important;
     color: var(--dark) !important;
+    margin-top: 0; /* Ensures no extra margin at the top */
 }
 
 /* Ensure higher specificity for the Navbar */
 .navbar {
     background-color: var(--english-violet) !important;
     border-color: var(--satin-sheen-gold) !important;
+    padding-top: 10px; /* Adjust padding if there's unnecessary space */
 }
 
 .navbar .nav-link {
@@ -44,42 +46,44 @@ h5 {
 }
 
 .footer {
-    background-color: var(--satin-sheen-gold);
-    color: var(--davys-gray);
+    background-color: var(--english-violet);
+    color: var(--alabaster);
     padding: 20px;
     text-align: center;
-    /* Adjust as needed */
     margin-bottom: 0px;
 }
 
-
-
-/* .footer {
-    /* background-color: #6b757e;
-    color: white; */
-/* padding: 20px;
-    text-align: center; /* Adjust as needed */
-/* margin-bottom: 0px;  */
-/* } */
 .footer div a {
-    /* color: white; Change link color */
     text-decoration: none;
-    /* Remove underline */
 }
 
 .footer div a:hover {
     color: #EBFBFF;
-    /* Change hover color */
     transform: scale(1.01);
-    /* Add scale effect */
 }
 
 a {
     display: inline-block;
     padding: 10px;
     justify-content: center;
-    /* color: white; */
     text-decoration: none;
     transition: transform 0.2s ease, color 0.2s ease;
-    /* Smooth transition */
+}
+
+/* Ensure the logo can overlap the navbar without causing layout issues */
+.header .navbar {
+    position: relative;
+}
+
+.logo-link {
+    position: absolute;
+    top: -5px; /* Adjust this value to bring the logo lower if needed */
+    left: 50%;
+    transform: translateX(-50%); /* Center the logo */
+    z-index: 10; /* Keeps the logo above other navbar elements */
+}
+
+.logo {
+    width: 100px; /* Slightly smaller size to avoid excessive space */
+    height: auto;
 }

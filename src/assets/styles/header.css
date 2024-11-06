@@ -1,0 +1,17 @@
+/* Ensure the logo can overlap the navbar */
+.header .navbar {
+    position: relative;
+}
+
+.logo-link {
+    position: absolute;
+    top: -30px; /* Adjust this value for the desired overlap */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10; /* Ensures the logo is above other elements */
+}
+
+.logo {
+    width: 120px; /* Adjust size of the logo */
+    height: auto;
+}

@@ -1,0 +1,59 @@
+/* Portfolio Layout Adjustments */
+.portfolio-item {
+    text-align: center;  /* Center align text */
+    cursor: pointer;  /* Indicate it's clickable */
+}
+
+.portfolio-thumbnail-container {
+    position: relative;  /* Position relative to allow absolute positioning of text */
+}
+
+.portfolio-thumbnail {
+    width: 100%;  /* Ensure images fit within the column */
+    height: auto;  /* Maintain aspect ratio */
+    max-width: 300px;  /* Limit the size of thumbnails */
+    border-radius: 8px;  /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Light shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth hover effect */
+}
+
+.portfolio-thumbnail:hover {
+    transform: scale(1.05);  /* Slight zoom-in effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);  /* Enhanced shadow on hover */
+}
+
+.portfolio-hover-text {
+    position: absolute;  /* Position the text inside the image container */
+    top: 50%;  /* Vertically center the text */
+    left: 50%;  /* Horizontally center the text */
+    transform: translate(-50%, -50%);  /* Adjust for perfect centering */
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.portfolio-thumbnail-container:hover .portfolio-hover-text {
+    opacity: 1;  /* Make text visible when hovering over the image */
+}
+
+.portfolio-title {
+    margin-top: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;  /* Dark color for text */
+}
+
+.portfolio-item a {
+    display: block;  /* Ensure the entire image is clickable */
+    text-decoration: none;  /* Remove underline from link */
+    color: inherit;  /* Keep text color consistent */
+}
+
+.portfolio-link {
+    display: block;
+    position: relative;
+}

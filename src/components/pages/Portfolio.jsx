@@ -1,46 +1,60 @@
-// import '../../assets/style/portfolio.css';
+import '../../assets/styles/portfolio.css';
+import tarot from '../../assets/images/tarot.jpg';
+import scroll from '../../assets/images/scroll-seeker.jpg';
+import debt from '../../assets/images/debt.jpg';
+
 export default function Portfolio() {
     return (
         <div className="container py-5">
             <h1 className="text-center mb-4">My Portfolio</h1>
-            <p className="lead">
-                Welcome to my portfolio, a showcase of my journey as a creative professional over the past decade. <br /><br />
-                Here, you'll find a curated collection of my work in videography, photography, graphic design, and filmmaking, each project reflecting my passion for storytelling and visual artistry. <br /><br />
-                My aim is to inspire and connect through engaging visuals that capture the essence of every project. Explore my creations, and witness how I bring ideas to life through a blend of creativity and technical skill.
-            </p>
-            {/* Portfolio Items Section */}
-            <div className="row mt-5">
+
+            <div className="row mt-5 justify-content-center">
                 <div className="col-md-4">
-                    <div className="card mb-4">
-                        <img src="path/to/image1.jpg" className="card-img-top" alt="Portfolio Item 1" />
-                        <div className="card-body">
-                            <h5 className="card-title">Fire & White Podcast</h5>
-                            <p className="card-text">Igniting stories about legends of women's basketball.</p>
-                            <a href="link-to-project1" className="btn btn-secondary">View Project</a>
-                        </div>
+                    <div className="portfolio-item mb-4">
+                        <a href="https://github.com/Elementary-my-dear-Watson/tarot" className="portfolio-link">
+                            <div className="portfolio-thumbnail-container">
+                                <img src={tarot} className="portfolio-thumbnail" alt="Tarot Project" />
+                                <div className="portfolio-hover-text">
+                                    <h5>Tarot</h5>
+                                    <p>Creative exploration through visual storytelling.</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <div className="card mb-4">
-                        <img src="path/to/image2.jpg" className="card-img-top" alt="Portfolio Item 2" />
-                        <div className="card-body">
-                            <h5 className="card-title">Project Title 2</h5>
-                            <p className="card-text">Brief description of project 2 showcasing your skills and the essence of the project.</p>
-                            <a href="link-to-project2" className="btn btn-secondary">View Project</a>
-                        </div>
+                    <div className="portfolio-item mb-4">
+                        <a href="https://github.com/Elementary-my-dear-Watson/scroll-seeker" className="portfolio-link">
+                            <div className="portfolio-thumbnail-container">
+                                <img src={scroll} className="portfolio-thumbnail" alt="Scroll Seeker Project" />
+                                <div className="portfolio-hover-text">
+                                    <h5>Scroll Seeker</h5>
+                                    <p>A journey of discovery through imagery and design.</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div className="col-md-4">
-                    <div className="card mb-4">
-                        <img src="path/to/image3.jpg" className="card-img-top" alt="Portfolio Item 3" />
-                        <div className="card-body">
-                            <h5 className="card-title">AO Scan Mini-Doc</h5>
-                            <p className="card-text">Brief description of project 3 showcasing your skills and the essence of the project.</p>
-                            <a href="link-to-project3" className="btn btn-secondary">View Project</a>
-                        </div>
+                    <div className="portfolio-item mb-4">
+                        <a href="https://github.com/Elementary-my-dear-Watson/dept" className="portfolio-link">
+                            <div className="portfolio-thumbnail-container">
+                                <img src={debt} className="portfolio-thumbnail" alt="Debt Relief Project" />
+                                <div className="portfolio-hover-text">
+                                    <h5>Debt Relief</h5>
+                                    <p>Visually representing financial empowerment and relief.</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
+
+            <p className="lead text-center mt-5">
+                As a passionate and versatile designer, I bring creativity and technical expertise to every project. <br /><br />
+                With a strong foundation in both traditional art forms and modern digital design, I am dedicated to crafting visually captivating and functional solutions. <br /><br />
+                My work reflects a blend of artistic flair and problem-solving skills, ensuring that each design is both aesthetically pleasing and user-friendly. I am constantly seeking new challenges to further hone my skills and push the boundaries of my creativity.
+            </p>
         </div>
     );
 }
