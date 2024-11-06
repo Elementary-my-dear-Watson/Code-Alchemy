@@ -1,4 +1,5 @@
 :root {
+    --eggshell: #ffffff;
     --alabaster: #f8f8f8ff;
     --english-violet: #5c415dff;
     --english-violet-2: #694966ff;
@@ -11,7 +12,7 @@
 
 /* Override Bootstrap variables */
 body {
-    background-color: var(--cream) !important;
+    background-color: var(--eggshell) !important;
     color: var(--dark) !important;
     margin-top: 0; /* Ensures no extra margin at the top */
 }
@@ -50,7 +51,8 @@ h5 {
     color: var(--alabaster);
     padding: 20px;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 0;
+    z-index: 1; /* Ensures footer is in front if there are stacking issues */
 }
 
 .footer div a {
@@ -62,12 +64,21 @@ h5 {
     transform: scale(1.01);
 }
 
-a {
-    display: inline-block;
-    padding: 10px;
-    justify-content: center;
-    text-decoration: none;
-    transition: transform 0.2s ease, color 0.2s ease;
+.footer p {
+    font-size: 1.2rem; /* Adjust font size if necessary */
+    color: var(--alabaster); /* Ensure it's visible against the background */
+}
+
+/* Adjust links to stand out more */
+.footer a {
+    color: var(--alabaster); /* Keeps link color white */
+    text-decoration: none; /* No underline */
+}
+
+.footer a:hover {
+    color: var(--satin-sheen-gold); /* Hover color */
+    text-decoration: underline; /* Underline on hover */
+    transform: scale(1.05); /* Hover effect */
 }
 
 /* Ensure the logo can overlap the navbar without causing layout issues */
@@ -77,7 +88,7 @@ a {
 
 .logo-link {
     position: absolute;
-    top: -5px; /* Adjust this value to bring the logo lower if needed */
+    top: 15px; /* Adjust this value to bring the logo lower if needed */
     left: 50%;
     transform: translateX(-50%); /* Center the logo */
     z-index: 10; /* Keeps the logo above other navbar elements */
@@ -86,4 +97,80 @@ a {
 .logo {
     width: 100px; /* Slightly smaller size to avoid excessive space */
     height: auto;
+}
+
+/* Title Styling */
+h1, .contact-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: var(--english-violet); /* Title color */
+    margin-bottom: 20px;
+}
+
+/* Description Styling */
+p, .contact-description {
+    font-size: 1.1rem;
+    color: var(--english-violet);
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* Button styling for both pages */
+.btn-custom {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    width: auto; /* Makes it narrower */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Button hover effect */
+.btn-custom:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Contact Form Styling */
+.contact-form {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+/* Form Input and Textarea */
+.form-control {
+    border: 2px solid var(--english-violet);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Form Button */
+.form-control:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Ensure no padding at the top for better header alignment */
+body {
+    margin-top: 0;
 }

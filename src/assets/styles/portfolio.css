@@ -22,13 +22,13 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);  /* Enhanced shadow on hover */
 }
 
+/* Hover text styling */
 .portfolio-hover-text {
     position: absolute;  /* Position the text inside the image container */
     top: 50%;  /* Vertically center the text */
     left: 50%;  /* Horizontally center the text */
     transform: translate(-50%, -50%);  /* Adjust for perfect centering */
     text-align: center;
-    color: white;
     background-color: rgba(0, 0, 0, 0.6);  /* Semi-transparent background */
     padding: 10px;
     border-radius: 8px;
@@ -38,6 +38,11 @@
 
 .portfolio-thumbnail-container:hover .portfolio-hover-text {
     opacity: 1;  /* Make text visible when hovering over the image */
+}
+
+/* Ensure text color inside hover text is white */
+.portfolio-hover-text * {
+    color: white !important;  /* Force white color for any child elements */
 }
 
 .portfolio-title {

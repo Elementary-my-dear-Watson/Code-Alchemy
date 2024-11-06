@@ -5,7 +5,7 @@
 
 .logo-link {
     position: absolute;
-    top: -30px; /* Adjust this value for the desired overlap */
+    top: -10px; /* Adjust this value for the desired overlap */
     left: 50%;
     transform: translateX(-50%);
     z-index: 10; /* Ensures the logo is above other elements */

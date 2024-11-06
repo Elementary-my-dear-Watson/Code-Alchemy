@@ -1,0 +1,94 @@
+/* Contact Container */
+.contact-container {
+    background-color: #ffffff; /* White background for the entire form box */
+    padding: 60px 15px; /* Padding to match the other pages */
+    border-radius: 10px; /* Round corners for the box */
+    color: #000000; /* Black text color */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Title Styling */
+.contact-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5rem;
+    color: #000000; /* Black title color */
+    margin-bottom: 20px;
+}
+
+/* Description Styling */
+.contact-description {
+    font-size: 1.1rem;
+    color: #333333; /* Slightly softer black for description */
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* Form Layout */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto; /* Center the form */
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+/* Label Styling */
+.form-label {
+    font-weight: bold;
+    color: #000000; /* Black label color */
+}
+
+/* Input and Textarea Styling */
+.form-control {
+    background-color: #ffffff; /* White background for form fields */
+    border: 2px solid #000000; /* Black border for inputs */
+    color: #000000; /* Black text */
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+/* Hover and Focus Effect for Input Fields */
+.form-control:hover, .form-control:focus {
+    border-color: #333333; /* Slightly lighter border on hover/focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Button Styling */
+.btn-submit {
+    background-color: #000000; /* Black button */
+    border: none;
+    color: #ffffff; /* White text */
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+/* Button Hover Effect */
+.btn-submit:hover {
+    background-color: #333333; /* Lighter black on hover */
+    transform: scale(1.05); /* Zoom effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-title {
+        font-size: 2rem;
+    }
+    
+    .contact-form {
+        gap: 15px;
+    }
+
+    .form-control {
+        font-size: 0.9rem;
+    }
+}
