@@ -33,7 +33,7 @@ This portfolio is a tribute to Martha Watson's journey as an artist turned softw
 - **Assets**: SVG images, high-quality project images
 
 ## Watch a video to see the functionality!
-[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Watch the demo](./src/assets/images/thumbnail.jpg)](https://drive.google.com/file/d/1l7PHXb8RpDzfSdtw4o5g7mIHmglUZTfa/view?usp=drive_link)
 
 ## Setup
 
@@ -71,16 +71,24 @@ Color Palette
 This project features a carefully curated color palette:
 
 Alabaster: #f1f2ebff
+
 Timberwolf: #d8dad3ff
+
 Cambridge Blue: #a4c2a5ff
+
 Ebony: #566246ff
+
 Davy's Gray: #4a4a48ff
+
 These colors have been chosen to give the portfolio a modern, elegant feel, while still being warm and inviting.
 
 Contact
 Want to collaborate or learn more? Reach out!
 
 Email: marthacdenzer@gmail.com
+
 GitHub: Elementary-my-dear-Watson
+
 License
+
 This project is licensed under the MIT License.
