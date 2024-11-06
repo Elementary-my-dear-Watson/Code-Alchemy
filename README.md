@@ -89,6 +89,10 @@ Email: marthacdenzer@gmail.com
 
 GitHub: Elementary-my-dear-Watson
 
-License
+## License
 
 This project is licensed under the MIT License.
+
+## Credits
+
+This project was built as part of a React Challenge. Thanks to Jacob Watson (Github: JakeStair) for contributions.
