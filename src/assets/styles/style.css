@@ -1,23 +1,85 @@
+:root {
+    --alabaster: #f8f8f8ff;
+    --english-violet: #5c415dff;
+    --english-violet-2: #694966ff;
+    --chinese-violet: #74526cff;
+    --citron: #dbd053ff;
+    --satin-sheen-gold: #c89933ff;
+    --cream: #fffae9;
+    --dark: #1a1a1a;
+}
+
+/* Override Bootstrap variables */
+body {
+    background-color: var(--cream) !important;
+    color: var(--dark) !important;
+}
+
+/* Ensure higher specificity for the Navbar */
+.navbar {
+    background-color: var(--english-violet) !important;
+    border-color: var(--satin-sheen-gold) !important;
+}
+
+.navbar .nav-link {
+    color: var(--alabaster) !important;
+}
+
+.navbar .nav-link:hover {
+    color: var(--satin-sheen-gold) !important;
+}
+
+h5 {
+    color: var(--alabaster) !important;
+}
+
+.btn-primary {
+    background-color: var(--cambridge-blue);
+    border-color: var(--cambridge-blue);
+}
+
+.btn-primary:hover {
+    background-color: var(--ebony);
+    border-color: var(--ebony);
+}
+
 .footer {
-    background-color: #6b757e;
-    color: white;
+    background-color: var(--satin-sheen-gold);
+    color: var(--davys-gray);
     padding: 20px;
-    text-align: center; /* Adjust as needed */
+    text-align: center;
+    /* Adjust as needed */
     margin-bottom: 0px;
 }
+
+
+
+/* .footer {
+    /* background-color: #6b757e;
+    color: white; */
+/* padding: 20px;
+    text-align: center; /* Adjust as needed */
+/* margin-bottom: 0px;  */
+/* } */
 .footer div a {
-    color: white; /* Change link color */
-    text-decoration: none; /* Remove underline */
+    /* color: white; Change link color */
+    text-decoration: none;
+    /* Remove underline */
 }
+
 .footer div a:hover {
-    color: #EBFBFF; /* Change hover color */
-    transform: scale(1.01); /* Add scale effect */
+    color: #EBFBFF;
+    /* Change hover color */
+    transform: scale(1.01);
+    /* Add scale effect */
 }
+
 a {
     display: inline-block;
     padding: 10px;
     justify-content: center;
-    color: white;
+    /* color: white; */
     text-decoration: none;
-    transition: transform 0.2s ease, color 0.2s ease; /* Smooth transition */
+    transition: transform 0.2s ease, color 0.2s ease;
+    /* Smooth transition */
 }

@@ -9,7 +9,7 @@ export default function Resume() {
             </p>
             <div className="text-center">
                 <a
-                    href="/assets/documents/resume.pdf" // Update here
+                    href="/assets/documents/resume.pdf"
                     download
                     className="btn btn-primary"
                 >
