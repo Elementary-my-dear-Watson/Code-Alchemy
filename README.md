@@ -32,6 +32,9 @@ This portfolio is a tribute to Martha Watson's journey as an artist turned softw
 - **Styling**: Custom CSS, Bootstrap
 - **Assets**: SVG images, high-quality project images
 
+## Watch a video to see the functionality!
+[![Watch the demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
 ## Setup
 
 To run this project locally, follow these steps:
@@ -45,11 +48,15 @@ To run this project locally, follow these steps:
    cd code-alchemy-portfolio
     ```
     
-npm install
+    ```bash
+   npm install
+    ```
 
-npm start
+    ```bash
+   npm run build
+    ```
 
-The app should now be running on http://localhost:3000.
+The app should now be running on http://localhost:5173/.
 
 Usage
 Explore the different pages using the navigation bar:
@@ -58,6 +65,8 @@ About: Learn more about Martha's artistic background and transition into coding.
 Portfolio: Discover a variety of projects that blend creativity with technology.
 Contact: Send a message using the built-in form.
 Resume: View and download Martha's resume.
+
+
 Color Palette
 This project features a carefully curated color palette:
 
